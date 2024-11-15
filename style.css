@@ -1,0 +1,133 @@
+body button{
+    cursor: pointer;
+    font-size: 16px;
+}
+body{
+    width: 100%;
+    color: white;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    text-align: center;
+    padding: 1% 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 26px;
+}
+#input{
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+.input-field{
+    width: 90%;
+    margin: auto;
+}
+.input-field input{
+    width: 90%;
+    margin: auto;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 3px dotted whitesmoke;
+    outline: none;
+    color: white;
+}
+.input-field label{
+    font-size: 18px;
+    padding: 5px 0;
+    display: inline-block;
+}
+#submit{
+    text-align: center;
+    margin-left: 5%;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 1% 2%;
+    border-radius: 10%;
+    margin-bottom: 2rem;
+}
+#output-field{
+    width: 90%;
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+}
+#table{
+    border-color: white;
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+thead th{
+    padding: 2% 0;
+}
+tbody td{
+    padding: 2% 0;
+}
+#delete-btn{
+    border: none;
+    background-color: red;
+    padding: 3% 6%;
+    border-radius: 10%;
+    text-align: center;
+    margin-right: 4%;
+}
+#update-btn{
+    border: none;
+    background-color: orange;
+    padding: 3% 6%;
+    border-radius: 10%;
+    text-align: center;
+}
+#update{
+    text-align: center;
+    margin-left: 5%;
+    border: none;
+    background-color:blue;
+    color: white;
+    padding: 1% 2%;
+    border-radius: 10%;
+    margin-bottom: 2rem;
+    display: none;
+}
+
+
+@media (max-width:560px) {
+    body{
+        height: 100vh;
+    }
+    h2{
+        font-size: 20px;
+    }
+    #input{
+        width: 95%;
+        margin: auto;
+    }
+    .input-field{
+        width: 95%;
+        margin: auto;
+    }
+    .input-field input{
+        width: 98%;
+        margin: auto;
+    }
+    #output-field{
+        width: 100%;
+        margin: auto;
+        font-size: 16px;
+        margin-bottom: 1rem;
+   
+    }
+    #delete-btn{
+        margin-bottom: 5px;
+    }
+}

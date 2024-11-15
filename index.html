@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- contact management system using the local storage -->
+    <title>Contact Management System</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Contact Management System</h2>
+    <section id="input">
+        <div class="input-field">
+            <label for="id">Id</label><br>
+            <input type="text" name="id" id ='id' autocomplete="off">
+        </div>
+        <div class="input-field">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" id ='name' autocomplete="off">
+        </div>
+        <div class="input-field">
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id ='email' autocomplete="off">
+        </div>
+        <div class="input-field">
+            <label for="contact">Contact</label><br>
+            <input type="number" name="contact" id ='contact' autocomplete="off">
+        </div>
+        <br>
+        <div>
+            <button id="submit" onclick="addContact()">Save</button>
+            <button id="update">Update</button>
+        </div>
+    </section>
+    <section id="output-field">
+        <table id="table" border="2">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>E-mail</th>
+                    <th>Contact</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="result">
+                    
+            </tbody>
+        </table>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
